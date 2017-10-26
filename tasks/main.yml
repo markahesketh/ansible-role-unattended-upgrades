@@ -1,0 +1,11 @@
+---
+
+- name: Install
+  apt:
+    pkg: unattended-upgrades
+    state: present
+
+- name: Enable
+  template:
+    src: "10periodic.j2"
+    dest: "/etc/apt/apt.conf.d/10periodic"
