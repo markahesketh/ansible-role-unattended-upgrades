@@ -1,6 +1,7 @@
 ---
 
 galaxy_info:
+  role_name: unattended_upgrades
   author: Mark Hesketh
   description: Manage Unattended Upgrades on Ubuntu/Debian systems
   license: MIT
